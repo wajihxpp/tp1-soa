@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinéma>
+<Film id='Lb78' type='comédie'>
+    <titre> les bronzes</titre>
+    <année> 1978</année>
+    <realisateur> Patrice Leconte</realisateur>
+    <role><nom>popeye</nom><acteur>Thierry Lhermite</acteur></role>
+    <role><nom>Jean-Claude Dusse</nom><acteur>Michel Blanc</acteur></role>
+</Film>
+
+<Film id='gf94' type='comédie'>
+    <titre> Grosse fatigue</titre>
+    <année> 1994</année>
+    <realisateur> Michel Blanc</realisateur>
+    <role><nom>Patric Olivier</nom><acteur>Michel Blanc</acteur></role>
+    <role><nom>Carole Bouquet</nom><acteur>Carole Bouquet</acteur></role>
+</Film>
+
+<producteur>
+    <nom>Daniel Toscan du Plantier</nom> 
+    <Film ref='gf94'/>
+</producteur>
+
+<producteur>
+    <nom>yves Rosset-Rouard</nom> 
+    <Film ref='Lb78'/>
+</producteur>
+
+
+
+</cinéma>
